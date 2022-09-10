@@ -12,6 +12,7 @@
   */
 
 int main(void)
+	/*dillion code*/
 {
 	int n;
 	int last;
