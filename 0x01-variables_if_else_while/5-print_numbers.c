@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
+ * main - point Entry
  *
  * Description; print all single digit numbers
  *
@@ -14,10 +14,10 @@ int main(void)
 
 	while (n <= 9)
 	{
-		printf("%i', n);
+		printf("%i", n);
 		n++;
 	}
-	printf('\n");
+	printf("\n");
 
 	return (0);
 }
