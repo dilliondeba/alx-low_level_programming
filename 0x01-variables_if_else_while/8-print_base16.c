@@ -9,22 +9,15 @@
  */
 
 int main(void)
-{
-	char l = 'a';
-	char n = '0';
-
-	while (n <= '9')
+{int i, y;
+	for (i = 0; i < 10; i++)
 	{
-		putchar(n);
-		n++;
+		putchar (i + '0');
 	}
-
-	while (l <= 'f')
+	for (y = 'a'; y <= 'f'; y++)
 	{
-		putchar('l');
-		l++;
+		putchar (y);
 	}
-	putchar('\n');
-
+	putchar ('\n');
 	return (0);
 }
