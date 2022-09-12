@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #include <stdlib.h>
 
 /**
@@ -58,7 +57,6 @@ c++;
 }
 d++;
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
-
