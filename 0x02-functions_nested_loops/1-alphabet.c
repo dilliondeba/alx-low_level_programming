@@ -2,11 +2,13 @@
 
 /**
  * main - print_alphabet
- * Return: )
+ * Return: 0
  */
 
-void print_alphabet(void)
+void print_alphabet(void)/*print funtion*/
+
 {
+
 	char c = 'a';
 
 	while (c <= 'z')
