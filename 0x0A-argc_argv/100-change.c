@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
 	position = total = change = aux = 0;
 
-	if (argc !=2)
+	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);

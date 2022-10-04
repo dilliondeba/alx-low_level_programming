@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int main(int argc, char const *agrv[])
+int main(int argc, char const *argv[])
 {
 	(void)argc;
 	printf("%s\n", agrv[0]);
