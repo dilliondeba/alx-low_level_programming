@@ -6,7 +6,7 @@
  * Return: Always 0
  */
 
-int main(int argc, char *argc[])
+int main(int argc, char *argv[])
 {
 
 	int count = 0;
@@ -15,7 +15,7 @@ int main(int argc, char *argc[])
 	{
 		while (count < argc)
 		{
-			printf("%s\n", argc[count]);
+			printf("%s\n", argv[count]);
 			count++;
 		}
 	}
