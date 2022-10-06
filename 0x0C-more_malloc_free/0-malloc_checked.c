@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *mall_checked - allocates memory using malloc and exist if failed
+ * *malloc_checked - allocates memory using malloc and exist if failed
  * @b: int
  * Return: pointer to the array initialized or NULL
  */
