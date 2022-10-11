@@ -3,7 +3,7 @@
 
 /*
  * File: 4-sum.h
- * DEsc: Header file that defines a function-like macro SUM(x, y)
+ * Desc: Header file that defines a function-like macro SUM(x, y)
  *	that computes the sum of the number x and y.
  */
 
