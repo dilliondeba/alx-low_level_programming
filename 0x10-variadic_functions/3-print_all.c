@@ -7,7 +7,7 @@
 void print_all(const char * const format, ...)
 {
 	va_list list;
-	int x = 0; 
+	int x = 0;
 	char *k;
 	char *sep = ", ";
 
@@ -35,7 +35,7 @@ void print_all(const char * const format, ...)
 			default:    /* if it does not comply with any of the cases */
 					x++;
 					continue;
-		
+		}
 		if (*(format + x + 1) != 0)
 		{
 			printf("%s", sep);
