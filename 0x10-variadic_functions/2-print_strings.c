@@ -1,4 +1,4 @@
-#include "varidic_functions.h"
+#include "variadic_functions.h"
 /**
  * print_strings - function that prints strings, followed by a new line
  *
@@ -27,7 +27,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 		else
 		{
-			printf("%s", X);
+			printf("%s", x);
 		}
 	}
 	putchar(10);
