@@ -4,7 +4,6 @@
 int rand()
 {
 	static int ct = -1;
-
 	ct++;
 	if (ct == 0)
 		return 8;
